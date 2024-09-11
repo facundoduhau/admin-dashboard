@@ -2,11 +2,18 @@ body, html
 {
   margin: 0;
   height: 100vh;
+  font-family: 'Carving';
 }
 
 ul
 {
   list-style: none;
+}
+
+@font-face
+{
+  font-family: 'Carving';
+  src: url(./fonts/MADECarvingSoftPERSONALUSE-Regular.otf);
 }
 
 .wrapper
@@ -90,11 +97,135 @@ ul
 
 .header-wrapper
 {
-  height: 15vh;
+  height: 20vh;
+}
+
+.search-box
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  font-weight: bold;
+}
+
+.search
+{
+  display: flex;
+  align-items: center;
+}
+
+.nav-icon
+{
+  font-size: 24px;
+  margin-right: 1rem;
+  margin-left: 3rem;
+}
+
+.nav-bar
+{
+  background-color: #d3d3d6;
+  height: 3vh;
+  border-radius: 15rem;
+  width: 40vw;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.search-input
+{
+  all: initial;
+  font: inherit;
+  margin-left: 1rem;
+  font-weight: normal;
+  width: 35vw;
+  font-size: 20px;
+}
+
+.top-right-wrapper
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.notifications
+{
+  font-size: 24px;
+}
+
+.user-icon
+{
+  width: 4rem;
+  border-radius: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.user-top-name:hover, .notifications:hover, .nav-icon:hover
+{
+  cursor: pointer;
+}
+
+.top-down
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-user-at
+{
+  display: flex;
+  align-items: center;
+}
+
+.top-down-icon
+{
+  width: 6rem;
+  border-radius: 5rem;
+  margin-left: 3rem;
+  margin-right: 2rem;
+}
+
+.user-at
+{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.post-buttons
+{
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 3rem;
+  width: 20vw;
+}
+
+.post
+{
+  all: initial;
+  font: inherit;
+  font-size: 20px;
+  padding: 5px;
+  width: 6rem;
+  border-radius: 5rem;
+  background-color: #172639;
+  color: #ffffff;
+  text-align: center;
+}
+
+.post:hover
+{
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #6c92bf;
 }
 
 .section-wrapper
 {
   background-color: #d3d3d6;
-  height: 85vh;
+  height: 80vh;
 }
