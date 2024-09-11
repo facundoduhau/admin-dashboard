@@ -228,4 +228,35 @@ ul
 {
   background-color: #d3d3d6;
   height: 80vh;
+  border: red solid;
+  display: flex;
+}
+
+.posts
+{
+  border: green solid;
+  width: 60vw;
+}
+
+.right-sidebar
+{
+  border: yellow solid;
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+
+.new, .trending
+{
+  height: 100%;
+}
+
+.new
+{
+  border: purple solid;
+}
+
+.trending
+{
+  border: blue solid;
 }
