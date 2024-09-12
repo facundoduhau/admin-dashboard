@@ -137,6 +137,7 @@ a
   font-size: 24px;
   display: flex;
   align-items: center;
+  padding: 6px;
 }
 
 .search-input
@@ -146,7 +147,8 @@ a
   margin-left: 1rem;
   font-weight: normal;
   width: 35vw;
-  font-size: 20px;
+  font-size: 18px;
+  padding: 8px;
 }
 
 .top-right-wrapper
@@ -164,10 +166,10 @@ a
 
 .user-icon
 {
-  width: 4rem;
+  width: 3.5rem;
   border-radius: 5rem;
   margin-left: 2rem;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 .user-top-name:hover, .notifications:hover, .nav-icon:hover, .content:hover, .new:hover, .trending:hover
@@ -316,6 +318,19 @@ a
   margin-right: 4rem;
 }
 
+.announcement
+{
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.announcements-wrapper
+{
+  width: 14vw;
+  display: flex;
+  align-items: center;
+}
+
 .new, .trending
 {
   height: 100%;
@@ -324,6 +339,7 @@ a
 .new
 {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -337,6 +353,39 @@ a
   box-shadow: 5px 5px 5px #888888
 }
 
+.new-post
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.new-post-wrapper
+{
+  width: 80%;
+  height: 30%;
+}
+
+.new-post-title
+{
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.new-post-content
+{
+  font-size: 14px;
+}
+
+.separator
+{
+  width: 80%;
+  height: 1px;
+  background-color: grey;
+}
+
 .trending
 {
   display: flex;
@@ -344,3 +393,23 @@ a
   align-items: center;
 }
 
+.trending-user
+{
+  display: flex;
+}
+
+.trending-icon
+{
+  width: 3rem;
+  border-radius: 5rem;
+}
+
+.trending-post-wrapper
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: red solid;
+  height: 100%;
+}
