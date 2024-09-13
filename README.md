@@ -19,4 +19,4 @@ This project was done to improve:
 * Applying icons localy
 * Links reference
 
-Link to the live demo: file:///home/facundo/top/admin-dashboard/index.html 👈
+Link to the live demo: https://facundoduhau.github.io/admin-dashboard/ 👈
